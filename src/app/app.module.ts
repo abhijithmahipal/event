@@ -1,3 +1,5 @@
+import { HomeModule } from './home/home.module';
+import { EngagementGalleryModule } from './engagement-gallery/engagement-gallery.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -19,7 +21,9 @@ import { AppRoutingModule } from './app-routing.module';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
-    MatButtonModule
+    MatButtonModule,
+    EngagementGalleryModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],
