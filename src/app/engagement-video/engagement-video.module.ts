@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { EngagementGalleryComponent } from './engagement-gallery.component';
+import { EngagementVideoComponent } from './engagement-video.component';
 import { GalleryModule } from 'ng-gallery';
 
 @NgModule({
@@ -8,6 +8,6 @@ import { GalleryModule } from 'ng-gallery';
     CommonModule,
     GalleryModule
   ],
-  declarations: [EngagementGalleryComponent]
+  declarations: [EngagementVideoComponent]
 })
-export class EngagementGalleryModule { }
+export class EngagementVideoModule { }
